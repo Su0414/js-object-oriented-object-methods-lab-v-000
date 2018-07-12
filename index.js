@@ -5,5 +5,5 @@ function BoardMember(name, homeState, training){
 }
 
 const veto = function(){
-  return "No, I must disagree";
+  return 'No, I must disagree'
 };
