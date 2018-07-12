@@ -15,11 +15,11 @@ function BoardMember(name, homeState, training){
     return 'I like to help people.'
   };
 
-  this.veto = function () {
-    return 'No, I must disagree'
+  this.releasePressStatement = function () {
+    return 'You will see great things from Scuber.'
   };
 
-  this.veto = function () {
-    return 'No, I must disagree'
+  this.sayHi = function () {
+    return 'Hi, my name is ${this.name}. I am from New York, and I was trained in law.'
   };
 }
